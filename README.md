@@ -13,3 +13,6 @@ electionprediction3.py - Pure Bayesian Computation - can handle 2 or 3 candidate
 
 
 electionprediction4.py - Implements Bayesian Simulation to get around the fact that computation with large numbers of candidates or large number of votes to go is too slow.
+
+
+Simulation is definetly the way to go for this problem and bayesian was the better one. To actually model this problem one would probably want the district by district data and do a seperate simulation for each of these to properly model the uncertainty.
